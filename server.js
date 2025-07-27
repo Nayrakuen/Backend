@@ -110,7 +110,7 @@ app.get("/api/nayla/schedule", async (req, res) => {
     lastFetched = now;
     res.json(filtered);
   } catch (error) {
-    console.error("❌ Gagal ambil jadwal Nayla:", error.message);
+    console.error("Gagal ambil jadwal Nayla:", error.message);
     res.status(500).json({ error: "Gagal ambil jadwal Nayla" });
   }
 });
