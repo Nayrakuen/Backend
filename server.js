@@ -126,7 +126,7 @@ app.get("/api/nayla/showroom", async (req, res) => {
 
     res.json(naylaSR);
   } catch (error) {
-    console.error("❌ Gagal ambil data Showroom Nayla:", error.message);
+    console.error("Gagal ambil data Showroom Nayla:", error.message);
     res.status(500).json({ error: "Gagal ambil data Showroom Nayla" });
   }
 });
