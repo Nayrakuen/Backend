@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Fitur Utama Website
+## Fitur Utama Website
 
 ### 🏠 **Main Menu (Beranda)**
 Terdiri dari 5 konten utama:
